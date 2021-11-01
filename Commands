@@ -35,3 +35,5 @@ git reset --hard origin/my_remote_branch
 
 git restore . 
 git checkout . # older version of restore command
+
+git rm  # delete a file
