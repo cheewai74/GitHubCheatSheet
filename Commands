@@ -1,5 +1,6 @@
 
 # To know which email is configured for a specific repository, go to the repository folder and run each line separately
+git config  # lets you configure different options for git
 git config user.name
 git config user.email
 
@@ -32,6 +33,10 @@ git commit -m "First Commit"
 git log
 
 git reset --hard origin/my_remote_branch
+
+git switch # use to move between branches
+
+git stash apply # get an item from stash without removing it.
 
 git restore . 
 git checkout . # older version of restore command
