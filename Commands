@@ -3,6 +3,9 @@
 git config user.name
 git config user.email
 
+git config --global user.name "Tom"
+git config --global user.email "Tom@gmail.com"
+
 # Would you like to know what is configured for each level? Just add the specific option after config command:
 git config --system user.email
 git config --global user.email
@@ -21,3 +24,14 @@ git commit --amend --no-edit
 git push -f
 
 git pull --rebase origin main
+
+
+git init
+git add .  # Add all files
+git commit -m "First Commit"
+git log
+
+git reset --hard origin/my_remote_branch
+
+git restore . 
+git checkout . # older version of restore command
