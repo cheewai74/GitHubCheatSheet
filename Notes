@@ -1,1 +1,5 @@
---amend : add an item to previous commit
+--amend #add an item to previous commit
+
+--oneline #display entry per line
+
+.gitignore  # keep Git from tracking files
