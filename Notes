@@ -3,3 +3,7 @@
 --oneline #display entry per line
 
 .gitignore  # keep Git from tracking files
+
+
+https://phoenixnap.com/kb/generate-ssh-key-windows-10
+ssh-keygen
